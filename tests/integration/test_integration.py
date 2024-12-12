@@ -1,5 +1,5 @@
 import pytest
 
-@pytest.mark.integtest
+@pytest.mark.integration
 def test_integration():
     assert True
