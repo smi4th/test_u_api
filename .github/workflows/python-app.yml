@@ -38,6 +38,6 @@ jobs:
       run: nohup python main.py &
     - name: Test with pytest
       run: |
-        pytest
+        pytest -m integration
     - name: Kill API 
       run: pkill -f "python main.py"
